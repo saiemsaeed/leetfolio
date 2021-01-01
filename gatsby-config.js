@@ -1,11 +1,18 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Saiem Saeed',
     description:
       'Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.',
-    author: '@gatsbyjs',
+    author: '@saiemsaeed',
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`Lato\:400,700,900`, `Roboto\:400,700`, `Sacramento\:400`],
+        display: 'swap',
+      },
+    },
     {
       resolve: 'gatsby-plugin-styled-components',
       options: {
