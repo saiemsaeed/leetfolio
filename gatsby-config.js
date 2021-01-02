@@ -3,7 +3,18 @@ module.exports = {
     title: 'Saiem Saeed',
     description:
       'Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.',
-    author: '@saiemsaeed',
+    author: 'Saiem Saeed',
+    designation: 'Full Stack Engineer',
+    social: {
+      instagram: 'https://instagram.com/saiemsaeed',
+      github: 'https://github.com/saiemsaeed',
+      linkedin: 'https://linkedin.com/in/saiemsaeed',
+      reddit: 'https://reddit.com/user/saiemsaeed',
+      twitter: 'https://twitter.com/saiemsaeed',
+    },
+    email: 'hello@saiem.pro',
+    phone: '+92 313 5536246',
+    resume: 'https://stackoverflow.com/cv/saiemsaeed',
   },
   plugins: [
     {

@@ -9,15 +9,16 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
 
-import Header from './header';
+import Header from './Header';
 import './layout.css';
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
+  const { site } = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
         siteMetadata {
           title
+          resume
         }
       }
     }
@@ -25,7 +26,10 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
+      <Header
+        siteTitle={site.siteMetadata.title}
+        resumeLink={site.siteMetadata.resume}
+      />
       <main>{children}</main>
       {/* <footer>
           © {new Date().getFullYear()}, Built with
