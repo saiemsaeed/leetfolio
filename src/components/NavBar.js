@@ -9,12 +9,13 @@ const NavButton = styled.button`
   color: #f7f7f7;
   padding: 5px 9px;
   outline: none;
+  transition: linear 0.1s;
 
   &:hover {
     /* border: 2px solid #f7f7f7; */
     background: #f7f7f7;
     color: #3e3e3e;
-    border-radius: 2px;
+    border-radius: 3px;
     transition: linear 0.2s;
     outline: none;
   }
