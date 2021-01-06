@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Saiem Saeed',
     description:
-      'Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.',
+      "From the humble beginnings of developing Personal Projects, I'm evolved into a Full Stack Engineer who loves working with cutting edge tools and technologies to develop Interactive and Scalable Applications.",
     author: 'Saiem Saeed',
     designation: 'Full Stack Engineer',
     social: {

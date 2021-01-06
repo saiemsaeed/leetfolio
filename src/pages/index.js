@@ -69,7 +69,7 @@ const IndexPage = () => {
           <Col xs={6}>
             <ContentContainer className="d-flex flex-column justify-content-between h-100">
               <div className="d-flex flex-column align-items-center">
-                <PageTitle>I'm Saiem</PageTitle>
+                <PageTitle>I'm Saiem.</PageTitle>
                 <span>— {site.siteMetadata.designation}</span>
               </div>
               <div className="d-flex flex-column">
@@ -78,18 +78,20 @@ const IndexPage = () => {
                   <Row>
                     <Col xs={6}>
                       <Paragraph>
-                        I’m a Full stack developer. Who loves working with the
-                        cutting edge tools and technologies. My current stack is
-                        Angular, Node, GraphQL, Express and MongoDB.
+                        From the humble beginnings of developing Personal
+                        Projects, I'm evolved into a Full Stack Engineer who
+                        loves working with cutting edge tools and technologies
+                        to develop Interactive and Scalable Applications.
                       </Paragraph>
                       <div className="p-3" />
                       <Signature>{site.siteMetadata.author}</Signature>
                     </Col>
                     <Col xs={6}>
                       <Paragraph className="d-flex justify-content-end">
-                        And when I am not working I am part of the PC master
-                        race. I play multiplayer games like CSGO, Dota, PubG and
-                        Apex. And I also do Mixed Martial Arts.
+                        And when I'm not working I learn new crafts and study
+                        subjects like astronomy, religion (Islam) and
+                        spirituality. And, like any developer who has burnt the
+                        midnight oil, I know how to make a mean cup of coffee.
                       </Paragraph>
                     </Col>
                   </Row>
