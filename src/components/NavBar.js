@@ -1,6 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 
+const NavButtonLink = styled.a`
+  margin: 0 10px;
+`;
+
 const NavButton = styled.button`
   font-size: 16px;
   font-family: Roboto, sans-serif !important;
@@ -27,9 +31,12 @@ const NavButton = styled.button`
 export default function NavBar({ resumeLink }) {
   return (
     <nav>
-      <a href={resumeLink} target="_blank">
+      <NavButtonLink href="https://calendly.com/saiemsaeed" target="_blank">
+        <NavButton>Book Meeting</NavButton>
+      </NavButtonLink>
+      <NavButtonLink href={resumeLink} target="_blank">
         <NavButton>Resume</NavButton>
-      </a>
+      </NavButtonLink>
     </nav>
   );
 }
